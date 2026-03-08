@@ -1,2 +1,2 @@
-number
+numpy 
 hmmlearn
