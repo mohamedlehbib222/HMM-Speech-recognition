@@ -1,1 +1,22 @@
+
+1"}
 HMM Speech Recognition Report
+
+This project implements a simple speech recognition system using Hidden Markov Models (HMM).
+
+Two words are modeled: EV and OKUL.
+
+Each word is represented by a separate HMM model. The models contain transition probabilities and emission probabilities representing the likelihood of observing certain audio features.
+
+Observation symbols:
+0 = High frequency
+1 = Low frequency
+
+Example observation sequence:
+[High, Low]
+
+The likelihood of the observation sequence is calculated for both models. The model with the highest log-likelihood determines the recognized word.
+
+Noise in speech data can affect emission probabilities by making observations less reliable. This can reduce the accuracy of the model.
+
+Modern speech recognition systems often use Deep Learning instead of HMM because deep neural networks can handle large vocabularies and complex speech patterns more effective
