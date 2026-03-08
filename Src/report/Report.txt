@@ -1,5 +1,3 @@
-
-
 HMM Speech Recognition Report
 
 This project implements a simple speech recognition system using Hidden Markov Models (HMM).
